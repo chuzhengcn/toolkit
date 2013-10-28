@@ -53,4 +53,6 @@ Toolkit.is_pair = function (value1, value2) {
     return true
 }
 
-exports.tool = Toolkit;
+if (typeof exports !== 'undefined') {
+    exports.tool = Toolkit;
+}
