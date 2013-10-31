@@ -1,0 +1,15 @@
+{
+    "name" : "toolkit",
+    "description" : "some useful functions to me",
+    "author" : "chu zheng",
+    "version" : "0.0.1",
+    "private" : true,
+    "main" : "./lib/tookit.js",
+    "engines": { 
+        "node": "*" 
+    },
+    "scripts": {
+        "test": "mocha ./test/tookit.js"
+    },
+
+}
