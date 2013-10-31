@@ -8,8 +8,10 @@
     "engines": { 
         "node": "*" 
     },
+    "dependencies": {
+      "should" : "*"
+    },
     "scripts": {
         "test": "mocha ./test/tookit.js"
-    },
-
+    }
 }
