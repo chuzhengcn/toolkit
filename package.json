@@ -9,9 +9,10 @@
         "node": "*" 
     },
     "dependencies": {
-      "should" : "*"
+      "should" : "*",
+      "mocha"  : "*"
     },
     "scripts": {
-        "test": "mocha ./test/tookit.js"
+        "test": "make test"
     }
 }
